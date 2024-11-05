@@ -7,13 +7,12 @@ namespace BMIMonitor
     {
         static void Main(string[] args)
         {
-            // Initialize a Person object using object initializer
             Person person = new Person
             {
                 FirstName = "John",
                 LastName = "Doe",
-                Weight = 70,  // Weight in kilograms
-                Height = 1.75  // Height in meters
+                Weight = 70,  
+                Height = 1.75 
             };
 
             // Output the person's calculated BMI
